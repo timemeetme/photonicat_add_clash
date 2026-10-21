@@ -1,0 +1,21 @@
+# OpenWrt source tree (shallow clone of photonicat/photonicat_openwrt, not tracked here)
+build/photonicat_openwrt/
+
+# tool downloads
+tools_dl/
+
+# logs & transient outputs
+*.log
+build/*.txt
+usb_monitor_err.txt
+usb_monitor_out.txt
+
+# firmware binaries & build outputs (artifacts are distributed via GitHub Releases)
+firmware/*.img
+firmware/*.img.gz
+firmware/*.bin
+firmware/*.tar.zst
+firmware/selfbuilt/
+firmware/BUILD_RESULT.txt
+firmware/sha256sums
+firmware/*.manifest

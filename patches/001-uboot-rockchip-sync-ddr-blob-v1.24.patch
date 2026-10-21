@@ -1,0 +1,11 @@
+--- /root/photonicat_openwrt/package/boot/uboot-rockchip/Makefile.bak	2026-10-21 09:51:30.652677653 +0800
++++ /root/photonicat_openwrt/package/boot/uboot-rockchip/Makefile	2026-10-21 09:51:30.654995770 +0800
+@@ -447,7 +447,7 @@
+ 
+ define Build/Prepare
+ 	$(call Build/Prepare/Default)
+-	$(CP) $(DL_DIR)/rk3588_ddr_lp4_2112MHz_lp5_2400MHz_v1.18.bin $(STAGING_DIR_IMAGE)/
++	$(CP) $(DL_DIR)/rk3588_ddr_lp4_2112MHz_lp5_2400MHz_v1.24.bin $(STAGING_DIR_IMAGE)/
+ endef
+ 
+ define Build/Configure
