@@ -16,6 +16,7 @@ firmware/*.img.gz
 firmware/*.bin
 firmware/*.tar.zst
 firmware/selfbuilt/
+firmware/openclash/
 firmware/BUILD_RESULT.txt
 firmware/sha256sums
 firmware/*.manifest
